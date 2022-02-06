@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: azure;
+    border: 0;
+    border-radius: 14px;
+}
+.container > h2{
+    background-color: azure;
+    width: 500px;
+    /* min-width: 100px; */
+}
+.b{
+    border: 0;
+    width: 50px;
+    height: 50px;  
+    position: relative;
+    left: 15%;
+    top: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.b:hover{
+    cursor: pointer;
+    background-color: red;
+    color: azure;
+}
